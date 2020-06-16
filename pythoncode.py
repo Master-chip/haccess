@@ -22,8 +22,4 @@ def prediction(request: Request,
  label = read_img(frame)
  return label
  return “No post request found”
- try:
-  pip freeze > requirements.txt
- except:
-  pass
  #https://towardsdatascience.com/deploy-python-tesseract-ocr-on-heroku-bbcc39391a8d
